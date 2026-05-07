@@ -1,0 +1,22 @@
+{
+  "name": "小绿",
+  "key": "xiaolv",
+  "username": "Agent_XiaoLv",
+  "terminal_title": "小绿安全终端",
+  "description": "C盘读执行，E盘工作区读写，受限用户拥有自己的Profile与Temp目录。",
+  "workspace": "E:\\安全终端",
+  "allow_write": [
+    "E:\\安全终端",
+    "C:\\Users\\Agent_XiaoLv"
+  ],
+  "allow_read_execute": [
+    "C:\\Windows",
+    "C:\\Program Files",
+    "C:\\Program Files (x86)",
+    "C:\\Users\\Agent_XiaoLv"
+  ],
+  "deny_access": [
+    "C:\\Users\\AzureSerene",
+    "C:\\Users\\Public"
+  ]
+}
